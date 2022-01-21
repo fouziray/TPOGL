@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.telly'
+version = '1.0.0'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.springframework:spring-core:3.2.3.RELEASE"
+    implementation "org.springframework:spring-beans:3.2.3.RELEASE"
+    implementation "org.springframework:spring-context:3.2.3.RELEASE"
+    implementation "org.springframework:spring-jdbc:3.2.3.RELEASE"
+    implementation "org.springframework:spring-web:3.2.3.RELEASE"
+    implementation "org.springframework:spring-webmvc:3.2.3.RELEASE"
+    implementation "javax.servlet:jstl:1.2"
+    implementation "mysql:mysql-connector-java:5.1.26"
+    implementation "javax.validation:validation-api:1.1.0.Final"
+    implementation "org.hibernate:hibernate:3.5.4-Final"
+    implementation "org.hibernate:hibernate-validator:5.0.1.Final"
+    implementation "commons-validator:commons-validator:1.4.0"
+    implementation "org.springframework.security:spring-security-core:3.1.4.RELEASE"
+    implementation "org.springframework.security:spring-security-web:3.1.4.RELEASE"
+    implementation "org.springframework.security:spring-security-config:3.1.4.RELEASE"
+    implementation "org.springframework.security:spring-security-taglibs:3.1.4.RELEASE"
+    implementation "org.apache.tiles:tiles-extras:2.2.2"
+    implementation "org.apache.tiles:tiles-jsp:2.2.2"
+    implementation "org.apache.tiles:tiles-servlet:2.2.2"
+    implementation "log4j:log4j:1.2.14"
+    implementation "org.slf4j:slf4j-api:1.7.5"
+    implementation "org.slf4j:slf4j-jcl:1.7.5"
+    implementation "org.springframework:spring-test:3.2.3.RELEASE"
+    implementation "junit:junit:4.11"
+    implementation "commons-dbcp:commons-dbcp:1.4"
+    implementation "org.springframework:spring-orm:3.2.3.RELEASE"
+    implementation "org.hibernate:hibernate-core:3.6.10.Final"
+
+}
+
+
