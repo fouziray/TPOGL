@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 import com.telly.dao.Reserve;
 import com.telly.dao.ReserveDao;
 
+import java.util.List;
+
 @Service("reserveService")
 public class ReserveService {
 	
@@ -17,6 +19,8 @@ public class ReserveService {
 	public void reserve(Reserve reserve){
 		reserveDao.reserve(reserve);
 	}
-	
+	public List<Reserve> getReserves(String username){
+		return reserveDao.getReserve(username);
+	}
 
 }
