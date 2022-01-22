@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.tiles:tiles-freemarker:2.2.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-freemarker/2.2.2/85a05916f8fb421881b0b1574598cbb013e102a7/tiles-freemarker-2.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-freemarker/2.2.2/f41e19bc13bbf110c105da362f0e33076f48042b/tiles-freemarker-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

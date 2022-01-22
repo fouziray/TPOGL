@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.tiles:tiles-mvel:2.2.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-mvel/2.2.2/2489ad5e770779864254579ac8af8dccf349d698/tiles-mvel-2.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-mvel/2.2.2/c34da4c86689a92f2fe9526cd02c566d57601656/tiles-mvel-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

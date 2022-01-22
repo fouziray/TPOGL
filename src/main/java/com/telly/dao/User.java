@@ -53,7 +53,13 @@ public class User implements Serializable {
 	}
 
 
+<<<<<<< HEAD
 
+=======
+	public boolean isEnabled() {
+		return enabled;
+	}
+>>>>>>> 33f6c1761d1c67ac47090c7c16bcd82670a5312f
 
 
 
@@ -64,10 +70,30 @@ public class User implements Serializable {
 
 
 
+<<<<<<< HEAD
+=======
+
+	public String getAuthority() {
+		return authority;
+	}
+
+>>>>>>> 33f6c1761d1c67ac47090c7c16bcd82670a5312f
 	public void setAuthority(String authority) {
 		this.authority = authority;
 	}
 
+<<<<<<< HEAD
+=======
+	public String getUsername() {
+		return username;
+	}
+
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+>>>>>>> 33f6c1761d1c67ac47090c7c16bcd82670a5312f
 
 	public String getPassword() {
 		return password;
@@ -79,7 +105,20 @@ public class User implements Serializable {
 	}
 
 
+<<<<<<< HEAD
 
+=======
+	public String getEmail() {
+		return email;
+	}
+
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	
+>>>>>>> 33f6c1761d1c67ac47090c7c16bcd82670a5312f
 
 
 	
